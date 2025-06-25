@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">our followers</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="formPart">
+            <form action="post">
+                <label for="Username" id="username">Your Name: </label>
+                <input type="text" name="username" required>
+                <br>
+                <label for="email" id="email">Your Email</label>
+                <input type="email" name="email" required>
+                <br>
+
+                <label for="subject" id="subject">select your subjects: </label>
+                <select name="subject" id="subject">
+
+                    <option value="maths">Maths</option>
+                    <option value="sceince">science</option>
+                    <option value="computer">Computer</option>
+                </select>
+                <br>
+                <textarea name="yourmessage" id="yourmessage">enter your message</textarea>
+                <br>
+                <button type="button">send</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

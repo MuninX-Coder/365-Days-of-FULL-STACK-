@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning html</title>
+</head>
+
+<body>
+    <div> <!-- div is a block level element that means it will take all the width of the screen -->
+        <h1>I am inside div</h1>
+        <p>i am also inside in div</p>
+    </div>
+    <div class="myClass"> <!-- we used class to group 1 or more elements -->
+        so in this div i used class
+    </div>
+    <p class="myClass"> <!-- class can be given to multiple elements -->
+        so i used class in this paragrpah also same class
+    </p>
+    <div id="Myid"> <!-- id is same like class but id cant be similar each element should have different id name -->
+        so in this div i used id
+    </div>
+
+    now semantig tags are used instead of tags like div and other elements, we use semantic tags for better seo and
+    proper formattting
+    <header> <!--  we use header tag for the header of the web page -->
+        <h1>This is header part inside header</h1>
+        <p>This is also a header part inside the header section</p>
+        <nav> <!-- this is nav tag used to make navigation bar this can also comes under the header tag -->
+            <ul>
+                <li><a href="https://www.google.com">google</a></li>
+                <li><a href="https://www.google.com">google</a></li>
+                <li><a href="https://www.google.com">google</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!--Represents the main content of the page (unique and central).
+                               There should only be one <main> per page. -->
+        <p>i am inside main section</p>
+    </main>
+
+    <section> so basically section is used to create the web page into sections
+        this is a section 1
+    </section>
+    <section>
+        this is section 2
+        <article>
+            <h1>this is a article inside the article</h1>
+            <p>this is a article </p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; this is a footer used to represent the down part of the webpage</p>
+    </footer>
+
+    <form action="post"> <!--  all the elemements of forms comes under the form tag part -->
+        <label for="username">your Name</label> label is used to describe what input are you going to ask
+        <input type="text" id="username" name="username"> input tag is used to take the input
+        there are multiple types of the input: text, email, password, number, checkbox, radio
+
+        <input type="text">
+        <textarea name="message" id="message" cols="4" rows="5"></textarea> text ares is used to take give large message
+        and also we can set reow and columns of it.
+    </form>
+
+    <label for="">
+        <select name="country" id="country">      we used select tag to select multiple options 
+            <option value="in">India</option>     these are the options
+            <option value="in">India</option>
+            <option value="in">India</option>
+        </select>
+        <button type="button">send</button>   buttons are used to add buttons
+    </label>
+</body>
+
+</html>
