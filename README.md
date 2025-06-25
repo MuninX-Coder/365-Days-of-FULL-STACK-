@@ -1,2 +1,4 @@
 # 365-Days-of-FULL-STACK-
-Learning full stack and sharing my journey daily. (365 Days)
+
+lets start a journey of 365 days (full stack)
+i will be sharing my progress daily in this repostitory.
